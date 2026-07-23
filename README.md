@@ -4,7 +4,7 @@ This repository contains the dataset and metadata for the virtual screening of p
 
 ## Data Structure
 
-### `FGFR1_Dataset.csv` / `FGFR1_Dataset.xlsx`
+### `Consensus_Final_Report.csv` / `Consensus_Final_Report.xlsx`
 The main dataset consists of the following columns:
 
 *   **`DrugBank_ID`**: Unique identifier for each compound from the DrugBank database.
@@ -25,8 +25,9 @@ The main dataset consists of the following columns:
 3.  **Cross-Validation**: Identified leads were cross-referenced with experimental literature (recorded in the `references` column) to benchmark the performance of the selection function.
 
 ## Software & Tools
-*   **Virtual Screening**: DrugRep
-*   **Data Processing**: R (dplyr), Python (Upsetplot), and Microsoft Excel
+*   **Virtual Screening**: AutoDock Vina / PyRx
+*   **Data Processing**: R (dplyr), SPSS, and Microsoft Excel
+*   **Phylogenetic Analysis**: MEGA11
 
 ## Citation
 If you use this dataset, please cite:
