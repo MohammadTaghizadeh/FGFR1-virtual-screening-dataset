@@ -25,9 +25,8 @@ The main dataset consists of the following columns:
 3.  **Cross-Validation**: Identified leads were cross-referenced with experimental literature (recorded in the `references` column) to benchmark the performance of the selection function.
 
 ## Software & Tools
-*   **Virtual Screening**: AutoDock Vina / PyRx
-*   **Data Processing**: R (dplyr), SPSS, and Microsoft Excel
-*   **Phylogenetic Analysis**: MEGA11
+*   **Virtual Screening**: DrugRep
+*   **Data Processing**: R (dplyr), Python (UpSetPlot), and Microsoft Excel
 
 ## Citation
 If you use this dataset, please cite:
