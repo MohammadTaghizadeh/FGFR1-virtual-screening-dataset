@@ -1,4 +1,4 @@
-# Ensemble-Based Virtual Screening and Ligand Selection for FGFR1
+# Iterative-ensemble Virtual Screening Study of the Tyrosine Kinase Domain of Fibroblast Growth Factor Receptor 1 Using the DrugRep Server
 
 This repository contains the dataset and metadata for the virtual screening of potential FGFR1 inhibitors. The project utilizes an ensemble-based docking approach to enhance the reliability of ligand selection for drug repurposing.
 
@@ -20,9 +20,10 @@ The main dataset consists of the following columns:
 ---
 
 ## Methodology
-1.  **Ensemble Docking**: Multiple conformations of the FGFR1 receptor were used to account for structural flexibility during virtual screening.
-2.  **Scoring & Selection**: Ligands were prioritized using a multi-parametric function incorporating **Binding Energy**, **Mean Rank**, and **Frequency**.
-3.  **Cross-Validation**: Identified leads were cross-referenced with experimental literature (recorded in the `references` column) to benchmark the performance of the selection function.
+1.  **Ensemble Docking**: Multiple conformations of the FGFR1 receptor were used to account for structural flexibility during virtual screening via DrugRep.
+2.  **Iterative Docking**: Multiple runs of the FGFR1 receptor were used to account for the heuristic nature of Autodock Vina during virtual screening via DrugRep.
+3.  **Scoring & Selection**: Ligands were prioritized using a multi-parametric function incorporating **Binding Energy**, **Mean Rank**, and **Frequency**.
+4.  **Cross-Validation**: Identified leads were cross-referenced with experimental literature (recorded in the `references` column) to benchmark the performance of the selection function.
 
 ## Software & Tools
 *   **Virtual Screening**: DrugRep
@@ -30,7 +31,7 @@ The main dataset consists of the following columns:
 
 ## Citation
 If you use this dataset, please cite:
-> [Mohammad Taghizadeh], et al. "Ensemble-Based Virtual Screening and Ligand Selection for FGFR1." (2026).
+> [Mohammad Taghizadeh], et al. "Iterative-ensemble Virtual Screening Study of the Tyrosine Kinase Domain of Fibroblast Growth Factor Receptor 1 Using the DrugRep Server." (2026).
 
 ## License
 Licensed under the **MIT License)**.
