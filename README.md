@@ -1,3 +1,5 @@
+<img width="975" height="372" alt="image" src="https://github.com/user-attachments/assets/b6ddc609-74d2-42a4-a990-9f00c371361c" />
+
 # Iterative-ensemble Virtual Screening Study of the Tyrosine Kinase Domain of Fibroblast Growth Factor Receptor 1 Using the DrugRep Server
 
 This repository contains the dataset and metadata for the virtual screening of potential FGFR1 inhibitors. The project utilizes an ensemble-based docking approach to enhance the reliability of ligand selection for drug repurposing.
